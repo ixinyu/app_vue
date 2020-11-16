@@ -1,4 +1,4 @@
-
+﻿
 const path = require('path')
 
 function resolve(dir) {
@@ -19,7 +19,7 @@ module.exports = {
     open: false, // 配置自动启动浏览器
     proxy: {
       '/': {
-        target: 'https://001.ruer.coboriel.com',
+        target: '',
         ws: true,
         changeOrigin: true,
         pathRewrite: {
